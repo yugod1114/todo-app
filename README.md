@@ -5,4 +5,4 @@
 - 标记任务完成状态
 - 任务持久化存储
 - ## 使用方法
-1. 运行程序：`python src/main.py`
+1. 运行程序：`python main.py`
