@@ -67,3 +67,8 @@ class TodoManager:
             print(f"🗑️ 任务 {task_id} 已删除")
         else:
             print("❌ 未找到该任务 ID")
+
+    # 在 TodoManager 类末尾添加此方法（用于 GUI 获取任务列表）
+    def get_tasks(self):
+        """返回任务列表供 GUI 使用"""
+        return self.tasks.copy()  # 返回副本避免直接修改
